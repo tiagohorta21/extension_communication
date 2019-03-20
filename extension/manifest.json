@@ -2,7 +2,7 @@
     "name": "Awesome Extension",
     "version": "1.0",
     "description": "A communicative extension!",
-    "permissions": ["declarativeContent", "nativeMessaging", "storage"],
+    "permissions": ["declarativeContent", "nativeMessaging", "storage", "tabs"],
     "background": {
         "scripts": ["scripts/background.js"],
         "persistent": false
