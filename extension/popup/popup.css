@@ -1,0 +1,12 @@
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+.title {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}

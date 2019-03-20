@@ -1,0 +1,20 @@
+{
+    "name": "Awesome Extension",
+    "version": "1.0",
+    "description": "A communicative extension!",
+    "permissions": ["declarativeContent", "nativeMessaging", "storage"],
+    "background": {
+        "scripts": ["scripts/background.js"],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://localhost/*"],
+            "js": ["scripts/content.js"]
+        }
+    ],
+    "page_action": {
+        "default_popup": "popup/popup.html"
+    },
+    "manifest_version": 2
+}
